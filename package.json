@@ -1,0 +1,28 @@
+{
+  "author": "mitzip <mitzip@funtoo.org> (http://mitzip.com)",
+  "name": "fun2",
+  "description": "Collection of helper utilities for Funtoo Linux.",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mitzip/fun2.git"
+  },
+  "main": "index.js",
+  "bin": {
+    "fun2": "./bin/fun2.js"
+  },
+  "dependencies": {
+    "xml-stream": "0.4.5",
+    "commander": "^2.4.0"
+  },
+  "devDependencies": {},
+  "bugs": {
+    "url": "https://github.com/mitzip/fun2/issues"
+  },
+  "homepage": "https://github.com/mitzip/fun2",
+  "keywords": [
+    "funtoo",
+    "linux"
+  ],
+  "license": "MIT"
+}
